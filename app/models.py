@@ -14,7 +14,7 @@ class UserCreate(BaseModel):
 
 class UserOut(BaseModel):
     id:int
-    username:str
+    user_name:str
     email:str
     role:UserRole
     is_active:bool=True
